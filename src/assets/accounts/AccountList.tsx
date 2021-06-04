@@ -9,23 +9,16 @@ import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
 import TableBody from "@material-ui/core/TableBody";
 import Paper from "@material-ui/core/Paper";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {ToggleButton, ToggleButtonGroup} from "@material-ui/lab";
 
-function AccountTableList() {
-  const accounts: Array<Account> = [{
-    id: 1,
-    amount: 320.8,
-    currency: "CHF",
-    name: "myNiceAccount",
-    description: "Wow, this is advancing!"
-  }, {
-    id: 2,
-    amount: 94.6,
-    currency: "EUR",
-    name: "eurozz",
-  }];
+type Props = {
+  accounts:  Array<Account>
+}
 
+function AccountTableList({ accounts }: Props) {
   return (
-    <div>
+    <div  className={classes.root}>
       <Paper elevation={6} className={classes.root}>
         <TableContainer className={classes.container}>
           <Table stickyHeader aria-label="sticky table">
