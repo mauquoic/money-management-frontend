@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import AccountTiles from "./AccountTiles";
 import AccountList from "./AccountList";
 import Button from "@material-ui/core/Button";
@@ -6,17 +6,19 @@ import {Account} from "../../models/Account";
 import {Grid} from "@material-ui/core";
 import {ToggleButton, ToggleButtonGroup} from "@material-ui/lab";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import AccountService from "./AccountService";
 
-type Props = {
-  accounts: Array<Account>
-}
-
-function AccountDisplay({accounts}: Props) {
+function AccountDisplay() {
   const [view, setView] = useState("tiled");
+  const [accounts, setAccounts] = useState<Array<Account>>([]);
 
   const handleView = (event: React.MouseEvent<HTMLElement>, view: string) => {
     setView(view);
   };
+
+  useEffect(() => {
+    AccountService.getAccounts().then((accounts: Array<Account>) => setAccounts(accounts));
+  }, []);
 
   return (
     <Grid container>
@@ -36,7 +38,7 @@ function AccountDisplay({accounts}: Props) {
           </ToggleButton>
         </ToggleButtonGroup>
       </Grid>
-      <Grid xs={12}>
+      <Grid item xs={12}>
         {view === "tiled" ?
           <AccountTiles accounts={accounts}/> :
           <AccountList accounts={accounts}/>

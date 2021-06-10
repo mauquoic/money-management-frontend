@@ -11,8 +11,8 @@ function AccountTiledList({accounts}: Props) {
 
   return (
     <Grid container direction="row" spacing={2}>
-      {accounts.length > 0 ?
-        accounts.map((account: Account) =>
+      {accounts?.length > 0 ?
+        accounts?.map((account: Account) =>
           <AccountTileItem key={account.id}
                            account={account}
           />
