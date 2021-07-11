@@ -4,7 +4,7 @@ import axiosInstance from "../../shared/axios";
 
 class AccountService {
   static getAccounts = async () => {
-    return await axiosInstance.get("https://run.mocky.io/v3/1a0f21ef-f96b-4b94-92a4-7afea097e0fb")
+    return await axiosInstance.get("/accounts")
       .then((response: AxiosResponse<Array<Account>>) => {
         return response.data
       })

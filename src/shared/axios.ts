@@ -11,7 +11,10 @@ const axiosInstance = axios.create({
   maxRedirects: 10,
 
   //cap the maximum content length we'll accept to 50MBs, just in case
-  maxContentLength: 50 * 1000 * 1000
+  maxContentLength: 50 * 1000 * 1000,
+
+  // default backend
+  baseURL: `${process.env.REACT_APP_API_HOST}`
 })
 
 // wait ao most 3s for a response

@@ -16,11 +16,6 @@ type Props = {
 
 function AccountTableList({accounts}: Props) {
 
-  useEffect(() => {
-    document.title = "Hello";     // Sets the document title to Hello when the component is rendered
-    return function cleanup(){ document.title = "Bye bye"}    // When the component is destroyed, the title changes
-  }, [])                   // empty dependency array
-
   return (
     <div className={classes.root}>
       <Paper elevation={6} className={classes.root}>
