@@ -9,35 +9,35 @@ Object {
         class="root"
       >
         <div
-          class="MuiPaper-root root MuiPaper-elevation6 MuiPaper-rounded"
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation6 root css-azc51k-MuiPaper-root"
         >
           <div
-            class="MuiTableContainer-root container"
+            class="MuiTableContainer-root container css-rorn0c-MuiTableContainer-root"
           >
             <table
               aria-label="sticky table"
-              class="MuiTable-root MuiTable-stickyHeader"
+              class="MuiTable-root MuiTable-stickyHeader css-xn82ks-MuiTable-root"
             >
               <thead
-                class="MuiTableHead-root"
+                class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
               >
                 <tr
-                  class="MuiTableRow-root MuiTableRow-head"
+                  class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
                 >
                   <th
-                    class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+                    class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium css-dwuj3p-MuiTableCell-root"
                     scope="col"
                   >
                     Name
                   </th>
                   <th
-                    class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+                    class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium css-dwuj3p-MuiTableCell-root"
                     scope="col"
                   >
                     Value
                   </th>
                   <th
-                    class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+                    class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium css-dwuj3p-MuiTableCell-root"
                     scope="col"
                   >
                     Description
@@ -45,50 +45,50 @@ Object {
                 </tr>
               </thead>
               <tbody
-                class="MuiTableBody-root"
+                class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
               >
                 <tr
-                  class="MuiTableRow-root MuiTableRow-hover"
+                  class="MuiTableRow-root MuiTableRow-hover css-1q1u3t4-MuiTableRow-root"
                   role="checkbox"
                   tabindex="-1"
                 >
                   <td
-                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                   >
                     myAccount
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                   >
                     CHF
                      
                     100
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                   >
                     This is a description.
                   </td>
                 </tr>
                 <tr
-                  class="MuiTableRow-root MuiTableRow-hover"
+                  class="MuiTableRow-root MuiTableRow-hover css-1q1u3t4-MuiTableRow-root"
                   role="checkbox"
                   tabindex="-1"
                 >
                   <td
-                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                   >
                     myAccount2
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                   >
                     USD
                      
                     200
                   </td>
                   <td
-                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                   />
                 </tr>
               </tbody>
@@ -103,35 +103,35 @@ Object {
       class="root"
     >
       <div
-        class="MuiPaper-root root MuiPaper-elevation6 MuiPaper-rounded"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation6 root css-azc51k-MuiPaper-root"
       >
         <div
-          class="MuiTableContainer-root container"
+          class="MuiTableContainer-root container css-rorn0c-MuiTableContainer-root"
         >
           <table
             aria-label="sticky table"
-            class="MuiTable-root MuiTable-stickyHeader"
+            class="MuiTable-root MuiTable-stickyHeader css-xn82ks-MuiTable-root"
           >
             <thead
-              class="MuiTableHead-root"
+              class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
             >
               <tr
-                class="MuiTableRow-root MuiTableRow-head"
+                class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
               >
                 <th
-                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium css-dwuj3p-MuiTableCell-root"
                   scope="col"
                 >
                   Name
                 </th>
                 <th
-                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium css-dwuj3p-MuiTableCell-root"
                   scope="col"
                 >
                   Value
                 </th>
                 <th
-                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-stickyHeader"
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignCenter MuiTableCell-sizeMedium css-dwuj3p-MuiTableCell-root"
                   scope="col"
                 >
                   Description
@@ -139,50 +139,50 @@ Object {
               </tr>
             </thead>
             <tbody
-              class="MuiTableBody-root"
+              class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
             >
               <tr
-                class="MuiTableRow-root MuiTableRow-hover"
+                class="MuiTableRow-root MuiTableRow-hover css-1q1u3t4-MuiTableRow-root"
                 role="checkbox"
                 tabindex="-1"
               >
                 <td
-                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                 >
                   myAccount
                 </td>
                 <td
-                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                 >
                   CHF
                    
                   100
                 </td>
                 <td
-                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                 >
                   This is a description.
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root MuiTableRow-hover"
+                class="MuiTableRow-root MuiTableRow-hover css-1q1u3t4-MuiTableRow-root"
                 role="checkbox"
                 tabindex="-1"
               >
                 <td
-                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                 >
                   myAccount2
                 </td>
                 <td
-                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                 >
                   USD
                    
                   200
                 </td>
                 <td
-                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
                 />
               </tr>
             </tbody>

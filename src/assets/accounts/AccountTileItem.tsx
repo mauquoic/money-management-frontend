@@ -1,9 +1,10 @@
 import React from "react";
 import {Account} from "../../models/Account";
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import {Grid, makeStyles} from "@material-ui/core";
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+import Grid from "@mui/material/Grid";
+import { makeStyles } from "@mui/styles";
 
 type Props = {
   account: Account

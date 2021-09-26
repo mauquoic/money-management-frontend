@@ -6,7 +6,7 @@ import AccountDisplay from "../../../assets/accounts/AccountDisplay";
 import { shallow } from "enzyme";
 import AccountTiles from "../../../assets/accounts/AccountTiles";
 import AccountList from "../../../assets/accounts/AccountList";
-import { ToggleButtonGroup } from "@material-ui/lab";
+import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 
 const accounts = [{
   "id": 1,

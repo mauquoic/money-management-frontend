@@ -1,7 +1,7 @@
 import {Account} from "../../models/Account";
-import TableCell from '@material-ui/core/TableCell';
-import TableRow from '@material-ui/core/TableRow';
 import React from "react";
+import TableRow from "@mui/material/TableRow";
+import TableCell from "@mui/material/TableCell";
 
 type Props = {
   account: Account

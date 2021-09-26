@@ -1,6 +1,6 @@
+import Grid from "@mui/material/Grid";
 import React from "react";
 import {Account} from "../../models/Account";
-import {Grid} from "@material-ui/core";
 import {AccountTileItem} from "./AccountTileItem";
 
 type Props = {

@@ -2,13 +2,13 @@ import React, {useEffect, useState} from "react";
 import {Account} from "../../models/Account";
 import {AccountItem} from "./AccountItem";
 import classes from "./AccountList.module.css";
-import TableContainer from "@material-ui/core/TableContainer";
-import Table from "@material-ui/core/Table";
-import TableHead from "@material-ui/core/TableHead";
-import TableRow from "@material-ui/core/TableRow";
-import TableCell from "@material-ui/core/TableCell";
-import TableBody from "@material-ui/core/TableBody";
-import Paper from "@material-ui/core/Paper";
+import Table from "@mui/material/Table";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import TableCell from "@mui/material/TableCell";
+import TableBody from "@mui/material/TableBody";
+import Paper from "@mui/material/Paper";
+import TableContainer from "@mui/material/TableContainer";
 
 type Props = {
   accounts: Array<Account>

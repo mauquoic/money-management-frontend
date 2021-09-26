@@ -1,12 +1,13 @@
 import React, {useEffect, useState} from "react";
 import AccountTiles from "./AccountTiles";
 import AccountList from "./AccountList";
-import Button from "@material-ui/core/Button";
 import {Account} from "../../models/Account";
-import {Grid} from "@material-ui/core";
-import {ToggleButton, ToggleButtonGroup} from "@material-ui/lab";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import AccountService from "./AccountService";
+import Grid from "@mui/material/Grid";
+import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
+import ToggleButton from "@mui/material/ToggleButton";
+import Button from "@mui/material/Button";
 
 function AccountDisplay() {
   const [view, setView] = useState("tiled");
@@ -22,7 +23,7 @@ function AccountDisplay() {
 
   return (
     <Grid container>
-      <Grid container justify="flex-end">
+      <Grid container justifyContent="flex-end">
         <ToggleButtonGroup
           exclusive
           color="primary"
@@ -44,7 +45,7 @@ function AccountDisplay() {
           <AccountList accounts={accounts}/>
         }
       </Grid>
-      <Grid container justify="flex-end">
+      <Grid container justifyContent="flex-end">
         <Button size="small">Add account</Button>
       </Grid>
     </Grid>

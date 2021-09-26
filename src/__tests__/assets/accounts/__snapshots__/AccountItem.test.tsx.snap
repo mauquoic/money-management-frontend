@@ -6,24 +6,24 @@ Object {
   "baseElement": <body>
     <div>
       <tr
-        class="MuiTableRow-root MuiTableRow-hover"
+        class="MuiTableRow-root MuiTableRow-hover css-1q1u3t4-MuiTableRow-root"
         role="checkbox"
         tabindex="-1"
       >
         <td
-          class="MuiTableCell-root MuiTableCell-alignCenter"
+          class="MuiTableCell-root MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ce3qcx-MuiTableCell-root"
         >
           myAccount
         </td>
         <td
-          class="MuiTableCell-root MuiTableCell-alignCenter"
+          class="MuiTableCell-root MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ce3qcx-MuiTableCell-root"
         >
           CHF
            
           100
         </td>
         <td
-          class="MuiTableCell-root MuiTableCell-alignCenter"
+          class="MuiTableCell-root MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ce3qcx-MuiTableCell-root"
         >
           This is a description.
         </td>
@@ -32,24 +32,24 @@ Object {
   </body>,
   "container": <div>
     <tr
-      class="MuiTableRow-root MuiTableRow-hover"
+      class="MuiTableRow-root MuiTableRow-hover css-1q1u3t4-MuiTableRow-root"
       role="checkbox"
       tabindex="-1"
     >
       <td
-        class="MuiTableCell-root MuiTableCell-alignCenter"
+        class="MuiTableCell-root MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ce3qcx-MuiTableCell-root"
       >
         myAccount
       </td>
       <td
-        class="MuiTableCell-root MuiTableCell-alignCenter"
+        class="MuiTableCell-root MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ce3qcx-MuiTableCell-root"
       >
         CHF
          
         100
       </td>
       <td
-        class="MuiTableCell-root MuiTableCell-alignCenter"
+        class="MuiTableCell-root MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ce3qcx-MuiTableCell-root"
       >
         This is a description.
       </td>

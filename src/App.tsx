@@ -1,7 +1,7 @@
+import Grid from '@mui/material/Grid';
 import React from 'react';
 import './App.css';
 import AccountDisplay from "./assets/accounts/AccountDisplay";
-import {Grid} from "@material-ui/core";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
             lg={9}
             xl={8}
             style={{margin: "auto"}}>
+        
         <AccountDisplay/>
       </Grid>
     </div>
